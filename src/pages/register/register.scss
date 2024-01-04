@@ -1,0 +1,26 @@
+.registerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  .lockIcon {
+    margin: 1rem;
+    background-color: green;
+  }
+  .form {
+    width: 100% !important;
+    margin-top: 1.5rem;
+  }
+  .submitButton {
+    width: 100%;
+    margin: 2rem 0;
+    background-color: green;
+    &:hover {
+      background-color: rgb(7, 173, 7);
+    }
+  }
+}
+.copyRight {
+  margin-top: 3rem;
+}
